@@ -1,0 +1,153 @@
+.master {
+  background-color: #D7FC9F;
+}
+
+.cart {
+
+  font-family: -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  width: 100%;
+}
+
+.footer_img{
+  position: fixed;
+  bottom: 0px;
+  left: 80%;
+  height: 300px;
+  width: 300px;
+  background-color: #D7FC9F;
+}
+
+.img_F{
+  position: relative;
+  top: 35px;
+  left: 20px;
+  height: 250px;
+  width: 250px;
+}
+
+.container {
+  width: 70%;
+
+  display: inline-table;
+  margin-left: 30px;
+  background-color: moccasin;
+  border-radius: 10px;
+  margin-top: 0px;
+
+  overflow: hidden;
+  padding: 50px;
+  display: flex;
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.7);
+
+
+}
+
+.card {
+  background-color: moccasin;
+  border: none;
+  margin-top: 0px;
+  width: 100%;
+
+}
+
+.cart span {
+
+  border-radius: 10px;
+  padding: 6px;
+  color: #fff;
+}
+
+.total {
+  background-color: rgb(93, 161, 93);
+}
+
+.cart h1 {
+  text-align: center;
+  color: white;
+  color: rgb(93, 161, 93);
+  font-weight: bold;
+}
+
+.cart_list {
+  margin-bottom: 10%;
+}
+
+.cart_list ul li {
+  list-style: none;
+  flex-direction: column;
+  align-items: left;
+
+}
+
+.cart_list ul li a img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.cart_list_detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.cart_list_detail span {
+  font-weight: 300;
+  color: rgb(128, 113, 113);
+  align-self: center;
+  min-height: 100%;
+  padding: 5px;
+}
+
+.cart_list ul li p {
+  padding: 5px;
+  text-align: left;
+  color: rgb(128, 113, 113);
+}
+
+
+.cart_list ul li button {
+  text-decoration: underline;
+  color: rgb(231, 87, 87);
+  border: none;
+  background: none;
+}
+
+.cart_list ul li button:hover {
+  color: rgb(194, 68, 68);
+}
+
+.cart_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 80px auto;
+}
+
+.cart_info span {
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.cart_info a {
+  border: none;
+  background: rgb(93, 161, 93);
+  color: #fff;
+  padding: 20px 25px;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.cart_info a:hover {
+  background: rgb(63, 105, 63);
+  text-decoration: none;
+  color: #fff;
+}
+
+.remove {
+  position: absolute;
+  bottom: 20px;
+}

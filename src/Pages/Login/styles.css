@@ -1,0 +1,117 @@
+.login {
+  background-color: #d8ff9e;
+  min-height: calc(100vh - 80px);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_form {
+  height: 80%;
+  padding: 48px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+  background-color: #FAFAD2;
+  border-radius: 5px;
+  animation-name: fade;
+  animation-duration: 2s;
+  overflow: hidden;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.4);
+}
+
+.login_form > img {
+  width: 15vw;
+  height: 6vh;
+  animation-name: move;
+  animation-duration: 2s;
+  border-radius: 0.7rem;
+}
+
+.login_form_fields > label {
+  display: flex;
+  flex-direction: column;
+  animation-name: move;
+  animation-duration: 2s;
+  color: green;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.login_form_fields input {
+  border-radius: 5px;
+  border: 1px solid white;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+.login_form_fields > input:hover {
+  border: 1px solid green;
+}
+
+.login_form_button {
+  width: 68%;
+}
+
+.login_form_button > button {
+  height: 50px;
+  width: 100%;
+  background-color: green;
+  border-radius: 0.7rem;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+  animation-name: move;
+  animation-duration: 2s;
+}
+
+.login_form_button > button:hover {
+  background-color: #579200;
+}
+
+.login_form > span {
+  color: #579200;
+  font-size: 1.3rem;
+}
+
+.login_form > span > a {
+  color:#579200;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login_form > span > a:hover {
+  color: darkgreen;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes move {
+  from {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+

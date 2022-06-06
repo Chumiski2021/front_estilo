@@ -1,0 +1,60 @@
+
+
+.purchase {
+  margin: 30px 30%;
+  padding: 30px;
+
+}
+
+.purchase_form h1 {
+  text-align: center;
+
+}
+
+.purchase_form_input_group {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  padding: 30px 0;
+
+}
+
+.purchase_form_input_group select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  flex: 1;
+  background: #F0F0F5;
+  border-radius: 8px;
+  border: 0;
+  padding: 16px 24px;
+  font-size: 16px;
+  color: #6C6C80;
+}
+
+.purchase_form_action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.purchase_form_action h2 {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.purchase_form_action button {
+  border: none;
+  background: rgb(93, 161, 93);
+  color: #fff;
+  padding: 20px 25px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.purchase_form_action button:hover {
+  background: rgb(63, 105, 63);
+  text-decoration: none;
+  color: #fff;
+}
