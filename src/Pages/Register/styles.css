@@ -1,0 +1,114 @@
+.register {
+  background-color: #d8ff9e;
+  min-height: calc(100vh - 80px);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register_form {
+  height: 65vh;
+  width: 25vw;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.register_form h1 {
+  text-align: center;
+  padding-top: 5%;
+  height: 8vh;
+  font-size: 300%;
+  font-weight: bold;
+  color: green;
+  animation-name: move;
+  animation-duration: 2s;
+}
+
+
+
+.register_form > form {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  margin: auto;
+  margin-top: 1%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: #FAFAD2;
+  border-radius: 5px;
+  animation-name: fade;
+  animation-duration: 2s;
+  overflow: hidden;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.4);
+}
+
+.register_form_fields > label {
+  display: flex;
+  flex-direction: column;
+  animation-name: move;
+  animation-duration: 2s;
+  color: green;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.register_form_fields input {
+  border-radius: 5px;
+  border: 1px solid white;
+  padding-left: 5px;
+  height: 4vh;
+  width: 30vh;
+  margin-top: 5px;
+  animation-name: move;
+  animation-duration: 2s;
+
+}
+
+.register_form_fields > input:hover {
+  border: 1px solid green;
+}
+
+.register_form_button {
+  height: 50px;
+  width: 40%;
+  background-color: green;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  animation-name: move;
+  animation-duration: 2s;
+}
+
+.register_form button:hover {
+  background-color: #579200;
+
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes move {
+  from {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}

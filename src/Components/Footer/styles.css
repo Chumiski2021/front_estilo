@@ -1,0 +1,11 @@
+.footer {
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer > p {
+  text-align: center;
+}
